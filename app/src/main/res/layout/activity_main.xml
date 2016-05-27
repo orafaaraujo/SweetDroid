@@ -10,11 +10,29 @@
     tools:context="com.orafaaraujo.sweetdroid.MainActivity">
 
     <TextView
+        android:id="@+id/main_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:drawableLeft="@drawable/main_image"
-        android:drawableStart="@drawable/main_image"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="64dp"
         android:gravity="center"
         android:text="@string/main_text"
         android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main_button"
+        android:layout_below="@id/main_text"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/main_image"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@id/main_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/main_button" />
 </RelativeLayout>
