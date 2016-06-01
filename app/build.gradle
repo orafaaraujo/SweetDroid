@@ -54,7 +54,7 @@ android {
             applicationIdSuffix = ".demo"
         }
         winter {
-            applicationIdSuffix = ".winter"
+            applicationId "com.orafaaraujo.wintersweetdroid"
             versionCode 1
             versionName "1.0.0"
         }
