@@ -2,5 +2,6 @@
     <string name="app_name">Sweet Winter</string>
 
     <string name="second_text">Esta é a proxima tela do aplicativo!\nDisponivel apenas para usuarios
-        que baixaram a versão paga!</string>
+        que baixaram a versão paga!
+    </string>
 </resources>
