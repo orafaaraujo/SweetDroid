@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    compileSdkVersion 24
+    buildToolsVersion "23.0.3"
 
     defaultConfig {
         applicationId "com.orafaaraujo.sweetdroid"
         versionCode 7
         versionName "2.1.0"
         minSdkVersion 15
-        targetSdkVersion 23
+        targetSdkVersion 24
     }
 
     signingConfigs {
@@ -63,5 +63,5 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:appcompat-v7:24.0.0'
 }
